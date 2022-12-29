@@ -1,0 +1,143 @@
+.secton1__cont {
+  width: 1920px;
+  height: 775px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all ease 0.8s;
+
+  .qaychi {
+    position: absolute;
+    top: -30px;
+    right: 150px;
+    z-index: 1;
+  }
+
+  .section1__box {
+    width: 1364px;
+    height: 466px;
+    background: #0c0c0c;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    text-align: center;
+
+    h3 {
+      text-align: center;
+      margin-top: 48px;
+      font-family: "Cormorant Upright";
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+    h1 {
+      margin-top: 25px;
+      font-family: "Cormorant Upright";
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 130%;
+      text-align: center;
+      text-transform: capitalize;
+      color: #dcca87;
+    }
+
+    .section1__inp__block {
+      margin-top: 50px;
+      width: 1364px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .sel {
+        width: 412px;
+        height: 60px;
+        //////////////////////////////
+        border: 1px solid #f5efdb;
+        ////////////////////////
+        background: none;
+        color: white;
+      }
+    }
+
+    button {
+      width: 133px;
+      height: 44px;
+      background: #dcca87;
+      border: 1px solid #dcca87;
+      margin-top: 54px;
+      font-family: "Cormorant Upright";
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+  .section1__box:hover {
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+  }
+}
+
+
+
+
+.sec2__cont{
+    width: 1920px;
+height: 900px;
+position: relative;
+background-image: url(../../img/sec2bg.png);
+background-repeat: no-repeat;
+
+
+.pich2{
+    margin-top: -20px;
+    margin-left: 300px;
+}
+
+ul{
+    width: 600px;
+    height: 700px;
+    margin-left: 300px;
+    cursor: pointer;
+
+.sec2__item{
+    font-family: 'Cormorant Upright';
+font-weight: 600;
+font-size: 64px;
+list-style-type: none;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: #FFFFFF;
+padding: 64px 0;
+transition: all ease;
+}
+.sec2__item:hover{
+    color: aqua;
+transition: all ease;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

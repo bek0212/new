@@ -1,0 +1,225 @@
+.nav__card {
+  width: 1920px;
+  height: 1045px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../../img/nav__bac.png);
+  .nav__card__right {
+    width: 700px;
+    height: 800px;
+
+    h3 {
+      font-family: "Cormorant Upright";
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+    h1 {
+      width: 523px;
+      height: 83px;
+      font-family: "Cormorant Upright";
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 130%;
+      color: #dcca87;
+      margin: 76px 0;
+    }
+    p {
+      width: 570px;
+      height: 84px;
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      color: #aaaaaa;
+      margin: 64px 0;
+    }
+    h2 {
+      width: 335px;
+      height: 42px;
+      font-family: "Cormorant Upright";
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 130%;
+      color: #dcca87;
+    }
+    h5 {
+      width: 126px;
+      height: 28px;
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      color: #aaaaaa;
+      margin: 8px 0;
+    }
+    .burama {
+      margin: 64px 0;
+    }
+  }
+}
+.karam:hover {
+  transform: scale(1.1);
+  transition: all ease 0.8s;
+}
+.cont2 {
+  width: 1920px;
+  height: 763px;
+  background-image: url(../../img/restorance.png);
+}
+///////////////////////////////////////////////////////
+
+
+
+
+.nav__cont3 {
+  width: 1400px;
+  height: 1084px;
+  margin: 150px auto;
+
+  h1 {
+    text-align: center;
+    font-family: "Cormorant Upright";
+    font-weight: 600;
+    font-size: 64px;
+    color: #dcca87;
+  }
+
+  .carding {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .nav3__item1 {
+      width: 430px;
+      height: 534px;
+        margin-left: 50px;
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li {
+          margin-top: 30px;
+          color: white;
+          list-style-type: none;
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 175%;
+          color: #fafafa;
+        }
+      }
+    }
+
+    .nav3__item2 {
+      width: 430px;
+      height: 534px;
+      margin-left: 50px;
+
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li {
+          margin-top: 30px;
+          color: white;
+          list-style-type: none;
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 175%;
+          color: #fafafa;
+        }
+      }
+    }
+
+    .nav3__item3 {
+      width: 430px;
+      height: 534px;
+      margin-left: 50px;
+        
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li {
+          margin-top: 30px;
+          color: white;
+          list-style-type: none;
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 175%;
+          color: #fafafa;
+        }
+      }
+    }
+  }
+}
+
+
+.nav3__title1{
+    width: 430px;
+    height: 470px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    h3{
+        width: 412px;
+height: 84px;
+font-family: 'Cormorant Upright';
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+text-decoration-line: underline;
+color: #DCCA87;
+margin: 45px 5px;
+cursor: pointer;
+    }
+    p{
+        width: 412px;
+height: 84px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #AAAAAA;
+margin: 25px 5px;
+
+    }
+    h5{
+        font-family: 'Cormorant Upright';
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+color: #DCCA87;
+margin: 45px 5px;
+
+    }
+}
+
+.image__nav{
+  position: absolute;
+  right: 400px;
+
+}
+.btn__view{
+    font-family: 'Cormorant Upright';
+font-weight: 700;
+font-size: 16px;
+color: #0C0C0C;
+align-items: center;
+padding: 8px 32px;
+width: 136px;
+height: 44px;
+background: #DCCA87;
+
+margin-left: 500px;
+}
